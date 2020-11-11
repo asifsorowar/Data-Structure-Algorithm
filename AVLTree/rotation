@@ -1,0 +1,23 @@
+
+///For Right Heavy:
+10
+  20 <- (-1)
+    30
+leftRotate(10)
+
+10
+  20 <- (1) balanceFactor(root.right) > 0
+30
+rightRotate(30)
+leftRotate(10)
+
+
+///For Left Heavy:
+        10
+       20 <- (1)
+     30
+rightRotate(10)
+
+    10
+  20    <- (-1) balanceFactor(root.left) < 0
+    30
