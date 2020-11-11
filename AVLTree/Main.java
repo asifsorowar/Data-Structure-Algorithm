@@ -7,6 +7,7 @@ public class Main {
         avlTree.insert(10);
         avlTree.insert(5);
         avlTree.insert(15);
+        avlTree.insert(17);
 
         System.out.println(avlTree.height());
 
