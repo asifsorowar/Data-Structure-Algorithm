@@ -1,0 +1,7 @@
+left = parent * 2 + 1
+right = parent * 2 + 2
+
+parent = (index - 1) / 2
+
+
+parent must be bigger than it's childs.
