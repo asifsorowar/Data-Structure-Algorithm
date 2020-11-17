@@ -12,6 +12,8 @@ public class Main{
 
 //        tree.traversePreOrder();
 
+        tree.traverseLevelOrder();
+
         System.out.println(tree.BinarySearchTreeMin());
 
         System.out.println(tree.equals(tree));
